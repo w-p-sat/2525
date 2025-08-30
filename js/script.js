@@ -661,7 +661,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Запуск ---
     games.forEach((game) => {
         updateData(game.id);
-        setInterval(() => updateData(game.id), 1000); // оновлення кожну секунду
+        setInterval(() => updateData(game.id), 20000); // оновлення кожну секунду
     });
 
 });
@@ -922,3 +922,4 @@ document.addEventListener('DOMContentLoaded', () => {
 //     });
 
 // });
+
